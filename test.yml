@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+  - name: debug
+    debug: msg=this_is_test_grom_git
